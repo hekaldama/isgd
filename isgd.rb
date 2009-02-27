@@ -7,7 +7,10 @@
 INSTALL:
 
   curl http://github.com/hekaldama/isgd/raw/master/isgd.rb > isgd
+  chmod 744 isgd
   sudo mv isgd /usr/local/bin/isgd
+    or
+  git clone git://github.com/hekaldama/isgd.git
 
 USE:
 
