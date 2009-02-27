@@ -46,4 +46,4 @@ module Isgd
 
 end
 
-puts Isgd.read(ARGV.first)
+$stdout.tty? ? (puts Isgd.read(ARGV.first)) : (print Isgd.read(ARGV.first))
