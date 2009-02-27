@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 
 # Simple script to use is.gd api to generate a shortened URL
+# Thanks to defunkt for inspiration and formating of code
 
 =begin
 
