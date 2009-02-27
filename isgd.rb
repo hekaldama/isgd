@@ -6,7 +6,7 @@
 
 INSTALL:
 
-  curl http://github.com/hekaldama/isgd/raw/master/isgd.rb > isgd &&
+  curl http://github.com/hekaldama/isgd/raw/master/isgd.rb > isgd
   sudo mv isgd /usr/local/bin/isgd
 
 USE:
